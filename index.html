@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Boite de reception</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      src="https://www.google.com/a/cpanel/digital-dynamics.ma/images/favicon.ico"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header-home">
+      <nav id="navigation " class="all10 navigation">
+        <div class="flex-center logo-container">
+          <img
+            class="icon-20 right15 icon-hamburger-menu all10"
+            src="https://image.flaticon.com/icons/png/512/1828/1828859.png"
+            alt="hamburger-menu"
+          />
+          <img
+            class="icon-gmail"
+            src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png"
+            alt="gmail-logo"
+          />
+        </div>
+        <!-- Logo containetr-->
+        <div class="search-bar-container typo-small flex-center">
+          <button class="btn btn-search-icon bg-gray">
+            <img
+              class="icon-15 icon-search all10"
+              src="https://image.flaticon.com/icons/png/512/482/482631.png"
+              alt="search"
+            />
+          </button>
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Rechercher dans les messages"
+            name="search"
+          />
+          <svg
+            class="all15"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17v2h6v-2H3zM3 5v2h10V5H3zm10 16v-2h8v-2h-8v-2h-2v6h2zM7 9v2H3v2h4v2h2V9H7zm14 4v-2H11v2h10zm-6-4h2V7h4V5h-4V3h-2v6z"
+            ></path>
+          </svg>
+        </div>
+        <!-- search-bar-container-->
+        <div class="icons-settings-container flex-center">
+          <div class="icon-problem-container rounded-hover">
+            <svg
+              class="icon-problem icon-20 all10"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24px"
+              height="24px"
+              viewBox="0 0 24 24"
+              fill="#000000"
+              focusable="false"
+            >
+              <path fill="none" d="M0 0h24v24H0z"></path>
+              <path
+                d="M11 18h2v-2h-2v2zm1-16C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c-2.21 0-4 1.79-4 4h2c0-1.1.9-2 2-2s2 .9 2 2c0 2-3 1.75-3 5h2c0-2.25 3-2.5 3-5 0-2.21-1.79-4-4-4z"
+              ></path>
+            </svg>
+          </div>
+          <!-- icon-problem-container-->
+          <div class="icon-settings-container rounded-hover">
+            <svg
+              class="icon-settings icon-20 all10"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M13.85 22.25h-3.7c-.74 0-1.36-.54-1.45-1.27l-.27-1.89c-.27-.14-.53-.29-.79-.46l-1.8.72c-.7.26-1.47-.03-1.81-.65L2.2 15.53c-.35-.66-.2-1.44.36-1.88l1.53-1.19c-.01-.15-.02-.3-.02-.46 0-.15.01-.31.02-.46l-1.52-1.19c-.59-.45-.74-1.26-.37-1.88l1.85-3.19c.34-.62 1.11-.9 1.79-.63l1.81.73c.26-.17.52-.32.78-.46l.27-1.91c.09-.7.71-1.25 1.44-1.25h3.7c.74 0 1.36.54 1.45 1.27l.27 1.89c.27.14.53.29.79.46l1.8-.72c.71-.26 1.48.03 1.82.65l1.84 3.18c.36.66.2 1.44-.36 1.88l-1.52 1.19c.01.15.02.3.02.46s-.01.31-.02.46l1.52 1.19c.56.45.72 1.23.37 1.86l-1.86 3.22c-.34.62-1.11.9-1.8.63l-1.8-.72c-.26.17-.52.32-.78.46l-.27 1.91c-.1.68-.72 1.22-1.46 1.22zm-3.23-2h2.76l.37-2.55.53-.22c.44-.18.88-.44 1.34-.78l.45-.34 2.38.96 1.38-2.4-2.03-1.58.07-.56c.03-.26.06-.51.06-.78s-.03-.53-.06-.78l-.07-.56 2.03-1.58-1.39-2.4-2.39.96-.45-.35c-.42-.32-.87-.58-1.33-.77l-.52-.22-.37-2.55h-2.76l-.37 2.55-.53.21c-.44.19-.88.44-1.34.79l-.45.33-2.38-.95-1.39 2.39 2.03 1.58-.07.56a7 7 0 0 0-.06.79c0 .26.02.53.06.78l.07.56-2.03 1.58 1.38 2.4 2.39-.96.45.35c.43.33.86.58 1.33.77l.53.22.38 2.55z"
+              ></path>
+              <circle cx="12" cy="12" r="3.5"></circle>
+            </svg>
+          </div>
+          <!--icon-settting-container-->
+          <div class="icon-application-google rounded-hover">
+            <svg
+              class="icon-application icon-20 all10"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+              ></path>
+            </svg>
+          </div>
+          <!-- icon-application-google-->
+          <div class="profil-google-home flex-center all5">
+            <div class="image-google-home-container right5">
+              <img
+                class="image-google-home"
+                src="https://admin.google.com/u/1/ac/images/logo.gif?uid=112683400681310085546&amp;service=google_gsuite"
+                alt="image-google-home"
+              />
+            </div>
+            <!-- image-google-home-->
+            <div class="user-google-home-container">
+              <p class="user-google-home all8">H</p>
+            </div>
+            <!-- image-google-home-->
+          </div>
+          <!-- profil-google-home-->
+        </div>
+        <!-- icons-settings-container-->
+      </nav>
+    </header>
+    <!--header-home-->
+    <div class="container">
+      <aside class="home-page-right-bar right10">
+        <div class="nv-message-container-home all8">
+          <a href="#" class="flex-center">
+            <img
+              src="https://www.gstatic.com/images/icons/material/colored_icons/1x/create_32dp.png"
+            />
+            <div class="nv-message-text-container-home all8">
+              <p class="nv-message-text-home">Nouveau Message</p>
+            </div>
+          </a>
+        </div>
+        <!--nv-message-container-home -->
+        <div class="email-nav-container reseizable borders-bottom vertical10">
+          <ul class="email-nav">
+            <li class="email-nav-element email-nav-element-active verticall5">
+              <a
+                class="flex-center all5 bold color-red email-nav-element-typo"
+                href="#"
+              >
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="	https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png"
+                />
+                <div class="email-nav-element-text color-red">
+                  <span>Boite de reception</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Messages suivis</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/watch_later_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>En attente</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/label_important_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Junk</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="	https://www.gstatic.com/images/icons/material/system/1x/send_black_20dp.png"
+                />
+                <div
+                  class="email-nav-element-text color-light-gray flex-center"
+                >
+                  <span>Envoyees</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/insert_drive_file_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Brouillons</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Messages suivis</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Messages suivis</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element vertical5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/grade_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Messages suivis</span>
+                  <span>32</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="email-nav-container">
+          <h3 class="title-nav small">Meet</h3>
+          <ul class="email-nav">
+            <li class="email-nav-element verticall5">
+              <a
+                class="flex-center all5 color-red email-nav-element-typo"
+                href="#"
+              >
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="	https://www.gstatic.com/images/icons/material/system/1x/videocam_black_20dp.png"
+                />
+                <div
+                  class="email-nav-element-text color-light-gray color-light-gray"
+                >
+                  <span>Nouvelle reunion</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall5">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/today_black_20dp.png"
+                />
+                <div class="email-nav-element-text color-light-gray">
+                  <span>Rejoindre une reunion</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+        <!--email-nav-container-->
+        <div class="email-nav-container">
+          <h3 class="title-nav small">Hangout</h3>
+          <ul class="email-nav">
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <li class="email-nav-element verticall8">
+              <a class="flex-center all5 email-nav-element-typo" href="#">
+                <div class="user-google-home-container right5">
+                  <p class="user-google-home all8">H</p>
+                </div>
+                <!-- image-google-home-->
+                <div class="color-light-gray line-height1-3">
+                  <span class="flex-center">Youssef Mazozi</span>
+                  <span class="smaller flex-center">Salut Hicham</span>
+                </div>
+              </a>
+            </li>
+            <!--email-nav-->
+          </ul>
+          <hr />
+        </div>
+        <!--email-nav-container-->
+      </aside>
+      <!--Aside-->
+      <main class="main">
+        <div class="navigation-home-container hidden">
+          <ul class="navigation-home flex-center">
+            <li
+              class="navigation-home-element width20 flex-center borders-bottom navigation-home-active"
+            >
+              <a class="color-red flex-center" href="">
+                <img
+                  alt="icon"
+                  class="email-nav-element-icon horizantal10"
+                  src="	https://www.gstatic.com/images/icons/material/system/1x/inbox_gm_googlered600_20dp.png"
+                />
+                Principal
+              </a>
+            </li>
+            <li
+              class="navigation-home-element width20 flex-center borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom"
+            >
+              <a href="" class="flex-center">
+                <img
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/people_black_20dp.png"
+                  alt="image"
+                />
+                Reseaux sociaux
+              </a>
+            </li>
+            <li
+              class="navigation-home-element width20 flex-center borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom"
+            >
+              <a href="" class="flex-center">
+                <img
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/local_offer_black_20dp.png"
+                  alt="image"
+                />
+                Promotions
+              </a>
+            </li>
+            <li
+              class="navigation-home-element width20 flex-center borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom"
+            >
+              <a href="" class="flex-center">
+                <img
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/info_black_20dp.png"
+                  alt="image"
+                />
+                Notification
+              </a>
+            </li>
+            <li
+              class="navigation-home-element width20 flex-center borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom borders-bottom"
+            >
+              <a href="">
+                <img
+                  class="email-nav-element-icon horizantal10"
+                  src="https://www.gstatic.com/images/icons/material/system/1x/forum_black_20dp.png"
+                  alt="image"
+                />
+                Forums
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="flex-center space home-page-action-container">
+          <div class="home-page-action-left-element flex-center">
+            <div class="all10">
+              <input class="" type="checkbox" />
+            </div>
+            <div class="all5 rounded-hover">
+              <img
+                src="https://www.gstatic.com/images/icons/material/system/1x/refresh_black_20dp.png"
+              />
+            </div>
+            <div class="all5 rounded-hover">
+              <img
+                src="https://www.gstatic.com/images/icons/material/system/1x/more_vert_black_20dp.png"
+              />
+            </div>
+          </div>
+          <div class="home-page-action right-element typo-small">
+            <span class="all5">1-50 sur 247</span>
+          </div>
+          <!--home-page-action-container-->
+        </div>
+        <div class="list-message-container-home hidden">
+          <div
+            class="mail-home bck-mail-home bg-gray flex-center borders-bottom pointer all8"
+          >
+            <div class="identifiant-mail-home flex-center">
+              <input type="checkbox" />
+              <img
+                class="icon-20 horizantal10"
+                src="https://img.icons8.com/material-outlined/24/000000/star--v2.png"
+              />
+              <span class="bold">Ali Express</span>
+            </div>
+            <div class="details-mail-home">
+              <span>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </span>
+            </div>
+            <div class="time-mail-home">15H45</div>
+          </div>
+        </div>
+        <!--list-message-container-home-->
+        <div class="mail-details all10">
+          <div class="flex-center">
+            <div class="image-avatar-container right10">
+              <img
+                class="image-avatar icon-35"
+                src="https://ssl.gstatic.com/ui/v1/icons/mail/profile_mask2.png"
+              />
+            </div>
+            <div class="body-mail full-width">
+              <div class="bottom20 flex-center space">
+                <div class="mail-subject-container">
+                  <span>Email Subject</span>
+                </div>
+                <div class="mail-header-action flex-center">
+                  <div class="all8 rounded-hover">
+                    <img
+                      class=""
+                      src="https://www.gstatic.com/images/icons/material/system/1x/print_black_20dp.png"
+                      alt="Tout imprimer"
+                    />
+                  </div>
+                  <div class="all8 rounded-hover">
+                    <img
+                      class=""
+                      src="https://www.gstatic.com/images/icons/material/system/1x/print_black_20dp.png"
+                      alt="Tout imprimer"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="flex-center space">
+                <div class="">
+                  <p class="bold typo-small">Ali Express</p>
+                  <span class="smaller color-light-gray">A Hicham</span>
+                </div>
+                <div class="flex-center">
+                  <span class="smaller all8 color-light-gray">
+                    mar. 6 juil. 14:18 (il y a 7 jours)
+                  </span>
+                  <img
+                    class="icon-20 all8 rounded-hover"
+                    src="https://img.icons8.com/material-outlined/24/000000/star--v2.png"
+                  />
+                  <img
+                    class="icon-20 all8 rounded-hover"
+                    src="https://www.gstatic.com/images/icons/material/system/1x/reply_black_20dp.png "
+                  />
+                  <img
+                    class="icon-20 all8 rounded-hover"
+                    src="https://www.gstatic.com/images/icons/material/system/1x/more_vert_black_20dp.png"
+                  />
+                </div>
+              </div>
+
+              <div class="vertical20 typo-small">
+                <p class="">Salut Hicham, c'est le body de l'email</p>
+              </div>
+              <div class="flex-center">
+                <div
+                  class="btn btn-reponse all5 margRight10 flex-center typo-small"
+                >
+                  <a href="#" class="flex-center color-light-gray">
+                    <img
+                      class="icon-20 right5"
+                      src="https://www.gstatic.com/images/icons/material/system/1x/reply_black_20dp.png "
+                    />
+                    Repondre
+                  </a>
+                </div>
+                <div class="btn btn-reponse all5 flex-center typo-small">
+                  <a href="#" class="flex-center color-light-gray">
+                    <img
+                      class="icon-20 right5"
+                      src="https://www.gstatic.com/images/icons/material/system/1x/reply_black_20dp.png "
+                    />
+                    Transferer
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- mail-details-->
+      </main>
+      <!--main-->
+    </div>
+    <!--Conatiner-->
+  </body>
+</html>
